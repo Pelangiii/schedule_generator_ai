@@ -14,6 +14,6 @@ class Task {
 
   @override
   String toString() {
-    return 'Task{name: $name, priority: $priority, duration: $duration, deadline: $deadline}';
+    return 'Task{name: $name, priority: $priority, duration: $duration, deadline: $deadline}'; //menyama ratakan semua tipe data ke string
   }
 }
