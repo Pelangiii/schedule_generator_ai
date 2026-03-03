@@ -79,7 +79,7 @@ class _AddTaskCardState extends State<AddTaskCard> {
             TextField(
               controller: durationController,
               decoration: InputDecoration(
-                labelText: 'Duration (minutes)',
+                labelText: 'Duration (Time)',
                 border: OutlineInputBorder(),
                 prefixIcon: Icon(Icons.timer_outlined),
               ),
